@@ -26,6 +26,7 @@ main {
   clear: both;
   margin: 0;
 }
+
 .box-mosgreen {
   background-color:#80bfa8;
   margin: 0;
@@ -33,6 +34,7 @@ main {
   height: 250px;
   float: left;
 }
+
 .box-right {
   float: left;
 }
@@ -40,8 +42,8 @@ main {
 .box-center {
   float: left;
   clear: both;
-
 }
+
 .box-pink {
   background-color :#ff9e6b;
   margin: 0;
@@ -56,12 +58,14 @@ main {
   width: 150px;
   height: 100px;  
 }
+
 .box-yellow {
   background-color :#dbd400;
   margin: 0;
   width: 150px;
   height: 50px;
 }
+
 .box-red {
   background-color:#8c2727;
   margin: 0;
@@ -70,11 +74,13 @@ main {
   float: right;
   clear: both;
 }
+
 footer {
   float: left;
   clear: both;
   margin: 0;
 }
+
 .box-orange {
   background-color:#d98d30;
   margin: 0;

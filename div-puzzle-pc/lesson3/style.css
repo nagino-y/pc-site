@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.box-bule {
+  background-color:#141f40;
+  margin: 0;
+  width: 400px;
+  height: 100px;
+}
+
+.box-mosgreen {
+  background-color:#80bfa8;
+  margin: 0;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.box-red {
+  background-color:#8c2727;
+  margin: 0;
+  width: 250px;
+  height: 100px;
+  float: right;
+  clear: both;
+}
+
+.box-orange {
+  background-color:#d98d30;
+  margin: 0;
+  width: 400px;
+  height: 100px;
+}
