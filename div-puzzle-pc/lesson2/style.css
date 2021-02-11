@@ -1,13 +1,22 @@
+@charset "UTF-8";
+
+/* clearfix用 */
 .clearfix::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
 
+.big-box {
+  /* 大きく囲って中央寄せのため相対的に位置を移動 */
+  position: relative;
+  left: 50%;
+  overflow: hidden;
+}
 
 .box-blue {
   background-color:#141f40;
-  margin: 0, auto;
+  margin: 0;
   width: 400px;
   height: 100px;
 }
@@ -15,7 +24,7 @@
 main {
   float: left;
   clear: both;
-  margin: 0, auto;
+  margin: 0;
 }
 .box-mosgreen {
   background-color:#80bfa8;
@@ -28,10 +37,6 @@ main {
   float: left;
 }
 
-.box-3 {
-  /* float: left; */
-
-}
 .box-center {
   float: left;
   clear: both;
@@ -59,7 +64,7 @@ main {
 }
 .box-red {
   background-color:#8c2727;
-  margin: 0px;
+  margin: 0;
   width: 250px;
   height: 100px;
   float: right;
@@ -68,7 +73,7 @@ main {
 footer {
   float: left;
   clear: both;
-  margin: 0, auto;
+  margin: 0;
 }
 .box-orange {
   background-color:#d98d30;
