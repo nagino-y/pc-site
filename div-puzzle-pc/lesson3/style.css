@@ -2,20 +2,36 @@
 
 /* clearfix用 */
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
-.box-bule {
-  background-color:#141f40;
+.big-box {
+  position: relative;
+  left: auto;
+  overflow: hidden;
+}
+
+.box-blue {
+  background-color: #141f40;
   margin: 0;
   width: 400px;
   height: 100px;
 }
 
+.in-box {
+  background-color: #a9400b;
+  padding: 10px;
+  /* border-radius: ; */
+  width: 40px;
+  height: 40px;
+  position: absolute;
+
+}
+
 .box-mosgreen {
-  background-color:#80bfa8;
+  background-color: #80bfa8;
   margin: 0;
   width: 150px;
   height: 250px;
@@ -23,16 +39,15 @@
 }
 
 .box-red {
-  background-color:#8c2727;
+  background-color: #8c2727;
   margin: 0;
   width: 250px;
-  height: 100px;
-  float: right;
-  clear: both;
+  height: 250px;
+  float: left;
 }
 
 .box-orange {
-  background-color:#d98d30;
+  background-color: #d98d30;
   margin: 0;
   width: 400px;
   height: 100px;
