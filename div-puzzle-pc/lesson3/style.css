@@ -10,7 +10,6 @@
 .big-box {
   width: 400px;
   position: relative;
-  left: 50%;
   overflow: visible;
 }
 
@@ -19,17 +18,20 @@
   margin: 0;
   width: 400px;
   height: 100px;
-  
+  position: relative;
+  left: 50%;
 }
 
 .in-box {
-  background-color: #a9400b;
-  padding: 10px;
+  background-color: #a9004b;
+  margin: 20px;
+  border-color: white;
+  border-width: 10px;
   /* border-radius: ; */
   width: 40px;
   height: 40px;
   position: absolute;
-
+  left: 50%;
 }
 
 .box-mosgreen {
@@ -38,6 +40,8 @@
   width: 150px;
   height: 250px;
   float: left;
+  position: relative;
+  left: 50%;
 }
 
 .box-red {
@@ -46,11 +50,14 @@
   width: 250px;
   height: 250px;
   float: left;
+  position: relative;
+  left: 50%;
 }
 
 .box-orange {
   background-color: #d98d30;
-  margin: 0;
   width: 400px;
   height: 100px;
+  position: relative;
+  left: 50%;
 }

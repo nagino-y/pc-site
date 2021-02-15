@@ -10,22 +10,25 @@
 .big-box {
   /* 大きく囲って中央寄せのため相対的に位置を移動 */
   width: 400px;
-  position: relative;
-  overflow: visible;
+  margin: 0 auto;
+  /* position: relative; */
+  /* overflow: visible; */
 }
 
 .box-blue {
   background-color:#141f40;
   width: 400px;
   height: 100px;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
 }
 main {
   width: 400px;
   float: left;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
 }
 
 .box-mosgreen {
@@ -72,8 +75,9 @@ main {
 footer {
   width: 400px;
   float: left;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
 }
 
 .box-orange {
