@@ -9,55 +9,54 @@
 
 .big-box {
   width: 400px;
-  position: relative;
-  overflow: visible;
+  margin: 0 auto;
 }
 
 .box-blue {
   background-color: #141f40;
-  margin: 0;
   width: 400px;
   height: 100px;
+  float: left;
+  margin: 0 auto;
   position: relative;
-  left: 50%;
 }
 
 .in-box {
+  background-color: red;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+.box-3 {
   background-color: #a9004b;
-  margin: 20px;
-  border-color: white;
-  border-width: 10px;
-  /* border-radius: ; */
   width: 40px;
   height: 40px;
-  position: absolute;
-  left: 50%;
+  float: left;
+  margin: 10px;
 }
 
 .box-mosgreen {
   background-color: #80bfa8;
-  margin: 0;
   width: 150px;
   height: 250px;
   float: left;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
 }
 
 .box-red {
   background-color: #8c2727;
-  margin: 0;
   width: 250px;
   height: 250px;
   float: left;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
 }
 
 .box-orange {
   background-color: #d98d30;
   width: 400px;
   height: 100px;
-  position: relative;
-  left: 50%;
+  margin: 0 auto;
 }
