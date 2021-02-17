@@ -63,25 +63,30 @@
   position: relative;
 }
 
-.boxin3 {
-  background-color: #ff863f;
-  border: 5px solid white;
+.boxinthe {
   width: 150px;
-  height: 40px;
+  height: 170px;
   position: absolute;
-  float: left;
-  margin: 10px;
-}
-
-.boxin3:first-child {
-  /* position: relative; */
   left: 40px;
   top: 40px;
 }
 
-.boxin3:second-child {
-  left: 80px;
-  top: 80px;
+.boxin3 {
+  box-sizing: border-box;
+  background-color: #ff863f;
+  border: 5px solid white;
+  width: 150px;
+  height: 50px;
+  float: left;
+  margin: 10px 0;
+}
+
+.boxin3:first-child {
+  margin: 0;
+}
+
+.boxin3:last-child {
+  margin: 0;
 }
 
 .box-orange {
