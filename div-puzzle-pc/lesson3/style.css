@@ -22,13 +22,14 @@
 }
 
 .in-box {
-  background-color: white;
+  /* background-color: white;消去 */
   width: 160px;
   height: 60px;
   position: absolute;
   left: 200px;
   top: 20px;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 .box-3 {
@@ -36,14 +37,18 @@
   width: 40px;
   height: 40px;
   float: left;
-  margin: 10px;
+  /* margin: 10px;消去 */
+  border: 10px solid white;
+  /* box-sizing: border-box;消去 */
 }
 .box-3:first-child {
-  margin-right: 0;
+  /* margin-right: 0;消去 */
+  border-right: 0;
 }
 
 .box-3:last-child {
-  margin-left: 0;
+  /* margin-left: 0;消去 */
+  border-left: 0;
 }
 
 .box-mosgreen {
@@ -69,6 +74,7 @@
   position: absolute;
   left: 40px;
   top: 40px;
+  list-style-type: none;
 }
 
 .boxin3 {
