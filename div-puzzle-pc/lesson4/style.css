@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.big-box {
+  /* 大きく囲って中央寄せのため相対的に位置を移動 */
+  width: 400px;
+  margin: 0 auto;
+  /* position: relative; */
+  /* overflow: visible; */
+}
+
+.box-blue {
+  background-color:#141f40;
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
+}
+main {
+  width: 400px;
+  float: left;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
+}
+
+.box-mosgreen {
+  background-color:#80bfa8;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.box-right {
+  float: left;
+}
+
+.box-center {
+  float: left;
+}
+
+.box-pink {
+  background-color :#ff9e6b;
+  width: 100px;
+  height:150px;
+  float: left;
+}
+
+.box-skyblue {
+  background-color :#0093b7;
+  width: 150px;
+  height: 100px;
+}
+
+.box-yellow {
+  background-color :#dbd400;
+  width: 150px;
+  height: 50px;
+}
+
+.box-red {
+  background-color:#8c2727;
+  width: 250px;
+  height: 100px;
+  float: left;
+}
+
+footer {
+  width: 400px;
+  float: left;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
+}
+
+.box-orange {
+  background-color:#d98d30;
+  width: 400px;
+  height: 100px;
+}
