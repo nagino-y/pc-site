@@ -31,6 +31,61 @@ main {
   /* left: 50%; */
 }
 
+.f-container {
+  /* 必ず親要素にdisplay: flex; を入れる */
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 400px;
+  height: 250px;
+  list-style-type: none;
+}
+
+.f-item1 {
+  background-color:#80bfa8;
+  width: 150px;
+  height: 250px;
+}
+
+.f-in-item {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  width: 150px;
+  height: 150px;
+}
+
+.f-item-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 250px;
+}
+.f-item4 {
+  background-color :#ff9e6b;
+  width: 100px;
+  height:150px;
+}
+
+.f-item3 {
+  background-color :#0093b7;
+  width: 150px;
+  height: 100px;
+}
+
+.f-item2 {
+  background-color :#dbd400;
+  width: 150px;
+  height: 50px;
+}
+
+.f-item5 {
+  background-color:#8c2727;
+  width: 250px;
+  height: 100px;
+}
+
+/* 
 .box-mosgreen {
   background-color:#80bfa8;
   width: 150px;
@@ -70,7 +125,7 @@ main {
   width: 250px;
   height: 100px;
   float: left;
-}
+} */
 
 footer {
   width: 400px;
