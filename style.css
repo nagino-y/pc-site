@@ -17,13 +17,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  /* z-index: 2; */
   width: 100%;
-}
-
-.logo.png {
-  width: 50px;
-  height: 50px;
 }
 
 .info-box {
@@ -49,7 +44,9 @@ a:hover {
   color: #808080;
 }
 
-
+.wrapper {
+  background-color: #FFF8DC;
+}
 
 .main-visual {
   background-image: url(img/hero.jpg);
@@ -74,11 +71,13 @@ a:hover {
   display: flex;
   background-color: #FFF8DC;
   width: 960px;
+  /* justify-content: space-between; */
+  margin: 0 auto;
 }
 
 .main-conteiner {
   width: 670px;
-  padding-left: 250px;
+  /* padding-left: 250px; */
 }
 
 .conteiner-title {
