@@ -83,11 +83,12 @@ a:hover {
 .conteiner-title {
   margin-left: 10px;
   border-left: medium solid #FF0000;
-  padding: 10px;
+  padding-left: 10px;
   color: #808080;
 }
 
 .conteiner {
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -104,11 +105,12 @@ a:hover {
 
 .introduction-title {
   border-left: medium solid #FF0000;
-  padding: 10px;
+  padding-left: 10px;
   color: #808080;
 }
 
 .introduction-text {
+  margin-top: 10px;
   line-height: 20px;
   font-size: 12px;
   color: #808080;
