@@ -38,6 +38,19 @@
   height: 30px;
 }
 
+a {
+  color: #333333;
+  text-decoration: none;
+  transition: 0.3s;
+  /* border-bottom: #FFFFFF; */
+}
+
+a:hover {
+  color: #808080;
+}
+
+
+
 .main-visual {
   background-image: url(img/hero.jpg);
   background-size: cover;
@@ -60,16 +73,17 @@
 .main-box {
   display: flex;
   background-color: #FFF8DC;
+  width: 960px;
 }
 
 .main-conteiner {
-  width: 700px;
+  width: 670px;
   padding-left: 250px;
 }
 
 .conteiner-title {
   margin-left: 10px;
-  border-left: medium solid red;
+  border-left: medium solid #FF0000;
   padding: 10px;
   color: #808080;
 }
@@ -85,12 +99,12 @@
 }
 
 .introduction {
-  width: 300px;
-  padding-right: 250px;
+  width: 260px;
+  /* padding-right: 250px; */
 }
 
 .introduction-title {
-  border-left: medium solid red;
+  border-left: medium solid #FF0000;
   padding: 10px;
   color: #808080;
 }
@@ -121,11 +135,11 @@
 .under-box-line {
   padding: 10px;
   border: solid 1px;
-  border-color: white;
+  border-color: #FFFFFF;
 }
 
 .under-text {
   text-align: center;
   line-height: middle;
-  color: white;
+  color: #FFFFFF;
 }
